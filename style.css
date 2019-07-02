@@ -36,7 +36,7 @@ h2{
     font-size: 30px;
 }
 
-div{
+section div{
     text-align: center;
     width: 40%;
 }
@@ -49,3 +49,25 @@ ul li:nth-child(odd){
     color: white;
 }
 
+input::placeholder{
+    font-family: 'vt323', monospace;
+}
+
+input:focus{
+    background-color: #f7560b;
+    width: 150px;
+    height: 20px;
+}
+footer div{ 
+    display: flex;
+    justify-content: space-evenly
+    }
+
+    div{
+        
+    }
+
+    
+
+
+   
