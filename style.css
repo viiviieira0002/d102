@@ -2,15 +2,24 @@ body{
     margin: 0;
 
 }
+
 nav{
+    align-items: center;
     background-color: #e98251;
     display: flex;
     height: 60px;
-    
+    justify-content: space-evenly;
 }
-a{
-    color: #17386d;
-    font-size: 18pt;
-    text-decoration: none;
 
+nav a{
+    color: #17386d;
+    font-family: 'vt323', monospace;
+    font-size: 22pt;, 
+    text-decoration: none;
+}
+
+header{
+    background-image: url(Imagens/Foto-naruto.jpg);
+    background-size: cover;
+    height: 400px ;
 }
