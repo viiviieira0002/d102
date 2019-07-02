@@ -23,3 +23,29 @@ header{
     background-size: cover;
     height: 400px ;
 }
+
+section{ 
+background-color:burlywood;
+display: flex;
+font-family: 'Montserrat', sans-serif;
+justify-content: space-evenly;
+}
+
+h2{
+    font-family: 'vt323', monospace;
+    font-size: 30px;
+}
+
+div{
+    text-align: center;
+    width: 40%;
+}
+
+div ul {
+    list-style-image: url(imagens/ninja.png);
+}
+
+ul li:nth-child(odd){
+    color: white;
+}
+
